@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Aug 14 17:54:27 2020
+Creado el día Viernes, Agosto 14 a las 17:54:27 del 2020
 
 @author: Magh
 """
@@ -19,7 +19,6 @@ class VentanaPrincipal(qw.QMainWindow):
         self.setWindowTitle("Ventana de Pruebas")
         self.setWindowIcon(QtGui.QIcon('Recursos/MCServer-icon-64x64.png')) #Es posible usarlo desde VSCode
         #self.setWindowIcon(QtGui.QIcon('C:/Users/Moises/OneDrive - SENATI/GitHub/MiPrimerGUI/Recursos/Icon-Python_PyQt5.png'))
-        #self.setWindowIcon(QtGui.QIcon("OneDrive - SENATI/GitHub/MiPrimerGUI/Recursos/MCServer-icon-64x64.png"))
         self.statusBar().showMessage("Reto listo")
         self.setToolTip("Esto es un <b><i>ToolTip</i></b> usando PyQt")
         qw.QToolTip.setFont(QtGui.QFont("Arial", 10))
